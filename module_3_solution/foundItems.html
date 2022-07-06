@@ -1,0 +1,10 @@
+<div>
+    <table style="border: 1px solid black">
+        <tr style="border: 1px solid black" ng-repeat="item in items">
+            <td style="border: 1px solid black; padding: 5px;">{{item.id}}</td>
+            <td style="border: 1px solid black; padding: 5px;">{{item.name}}</td>
+            <td style="border: 1px solid black; padding: 5px;">{{item.description}}</td>
+            <td style="border: 1px solid black; padding: 5px;"><button class="btn btn-danger" ng-click="onRemove({item});">Remove</button></td>
+        </tr>
+    </table>
+</div>
